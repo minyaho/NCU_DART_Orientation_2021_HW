@@ -72,33 +72,40 @@ docker unpause DOCKER_ID
    ```shell
    ssh username@{server.ip} -p {port}
    ```
-   :::spoiler 結果
+   
+   - 結果
+   
    ![](https://i.imgur.com/Co60H6R.png)
-   :::
+   
    
 2. 使用 bash 當作接下來的 shell。(一般使用者預設 sh 為 dash)
     ```shell
     bash
     ```
-    :::spoiler 結果
+    
+    - 結果
+    
     ![](https://i.imgur.com/14wuhud.png)
-    :::
+    
 
 3. 創建一個 container
     ```shell
     docker run --name {container.name} -p <對外port號>:<container內部port號> -it {image.name}
     ```
-    :::spoiler 結果
+    
+    - 結果
+    
     ![](https://i.imgur.com/bhbOahM.png)
-    :::
+    
 
 4. cd 至 home 目錄
     ```shell
     cd home
     ```
-    :::spoiler 結果
+    - 結果
+    
     ![](https://i.imgur.com/UcWC6Lb.png)
-    :::
+    
 
 5. 安裝 vim
     ``` shell
@@ -106,14 +113,16 @@ docker unpause DOCKER_ID
     ```
 
 6. 撰寫 python code 並保存
-    :::spoiler 結果
+    - 結果
+    
     ![](https://i.imgur.com/kjX5ld6.png)
-    :::
+    
 
 7. 運行 code
-    :::spoiler 結果
+    - 結果
+    
     ![](https://i.imgur.com/Yjb8hDd.png)
-    :::
+    
 
 # 程式碼: mnist 手寫數字辨識
 ```python=
