@@ -1,1 +1,1 @@
-Please read from [here](https://hackmd.io/FHqb8GjzQWKpfePQbl1nAw?both).
+Please read from [here](https://hackmd.io/FHqb8GjzQWKpfePQbl1nAw).
